@@ -1,19 +1,9 @@
-# budget-app-vue
+# Budget App
 
-## Project setup
-```
-npm install
-```
+This Vue app allows you to track your expenses and income.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Live demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
+You can check live demo project by clicking this link https://maringr.github.io/budget-app-vue/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Home page](/src/assets/images/home_page.png)

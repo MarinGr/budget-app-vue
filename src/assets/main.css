@@ -1,0 +1,91 @@
+:root {
+  --gradient-bg: linear-gradient(
+    -225deg,
+    #65379b 0%,
+    #886aea 53%,
+    #6457c6 100%
+  );
+  --primary: #6457c6;
+  --secondary: #9f9bbd;
+  --app-bg: #f4f5fc;
+  --body-bg: #d2daff;
+  --text-color-primary: #3c3572;
+  --text-color-secondary: #817da1;
+  --white: #fff;
+  --success: #249c6e;
+  --error: #c52e61;
+  --error-bg: #fddde8;
+  --shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-bg);
+}
+
+section {
+  margin-top: 16px;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+:focus,
+:active {
+  outline: 1px solid var(--primary);
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+i,
+input[type="radio"] {
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+  color: var(--text-color-secondary);
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+i {
+  font-size: 18px;
+}
