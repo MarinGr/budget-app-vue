@@ -111,6 +111,8 @@ onMounted(() => {
 
 <style>
 #app {
+  position: absolute;
+  top: 10%;
   padding: 40px;
   border-radius: 10px;
   color: var(--text-color-primary);
@@ -132,7 +134,7 @@ onMounted(() => {
   background: var(--gradient-bg);
   color: var(--white);
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 22px;
   padding: 28px;
   display: flex;
   flex-direction: column;
