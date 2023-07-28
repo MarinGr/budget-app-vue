@@ -30,6 +30,7 @@
     </section>
     <AddTransactionForm @add-transaction="addTransaction" />
     <TransactionList
+      v-show="transactions.length"
       :transactions="transactions"
       @delete-transaction="deleteTransaction"
     />
