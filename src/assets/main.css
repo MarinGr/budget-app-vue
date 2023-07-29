@@ -53,11 +53,6 @@ button {
   font-size: inherit;
 }
 
-:focus,
-:active {
-  outline: 1px solid var(--primary);
-}
-
 input::-ms-clear {
   display: none;
 }
