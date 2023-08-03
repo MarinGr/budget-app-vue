@@ -118,6 +118,7 @@ onMounted(() => {
   border-radius: 10px;
   color: var(--text-color-primary);
   background-color: var(--app-bg);
+  box-shadow: var(--app-bg-shadow);
   width: 600px;
 
   @media (max-width: 990px) {
