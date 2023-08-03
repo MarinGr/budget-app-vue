@@ -1,6 +1,10 @@
 # Budget App
 
-This Vue app allows you to track your expenses and income.
+Budget app that allows users to track their total balance based on expenses and income. Data is saved in localStorage.
+
+## Stack
+
+Vue, Javascript
 
 ## Live demo
 
