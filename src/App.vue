@@ -112,9 +112,8 @@ onMounted(() => {
 
 <style>
 #app {
-  position: absolute;
-  top: 10%;
   padding: 40px;
+  margin: 60px;
   border-radius: 10px;
   color: var(--text-color-primary);
   background-color: var(--app-bg);
