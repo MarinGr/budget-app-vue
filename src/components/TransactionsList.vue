@@ -43,7 +43,7 @@ const deleteTransaction = (transaction) => {
 
 <style scoped>
 .transactions-list {
-  margin-top: 24px;
+  margin-top: 22px;
 }
 
 .list__title {
@@ -51,7 +51,7 @@ const deleteTransaction = (transaction) => {
 }
 .list__container {
   margin-top: 12px;
-  max-height: 400px;
+  max-height: 300px;
   overflow: auto;
 }
 
@@ -65,7 +65,7 @@ const deleteTransaction = (transaction) => {
 }
 
 .list__container::-webkit-scrollbar-thumb {
-  background-color: #dadff5;
+  background-color: var(--scroll-track-color);
   border-radius: 8px;
 }
 </style>

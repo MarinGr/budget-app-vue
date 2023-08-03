@@ -1,6 +1,5 @@
 <template>
   <form class="form" @submit.prevent="addTransaction">
-    <p class="form__title">Add new transaction</p>
     <div class="form__error-message" v-show="errorMessage">
       {{ errorMessage }}
     </div>
@@ -122,14 +121,10 @@ const removeError = (e) => {
 
 <style scoped>
 .form {
-  margin-top: 24px;
+  margin-top: 22px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-}
-
-.form__title {
-  font-weight: 600;
 }
 
 .form__input-group {
@@ -139,7 +134,7 @@ const removeError = (e) => {
 }
 
 .form__input {
-  margin-top: 10px;
+  margin-top: 8px;
   padding: 8px 12px;
   width: 100%;
   border-radius: 5px;
@@ -151,7 +146,7 @@ const removeError = (e) => {
 }
 
 .form__transaction-types {
-  margin-top: 12px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -165,7 +160,6 @@ const removeError = (e) => {
 .form__radio-btn {
   height: 14px;
   width: 14px;
-  margin-bottom: 6px;
   accent-color: var(--primary);
 }
 

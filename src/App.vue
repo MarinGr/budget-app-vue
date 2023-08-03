@@ -121,12 +121,14 @@ onMounted(() => {
   width: 600px;
 
   @media (max-width: 990px) {
+    margin: 40px;
     padding: 20px;
     max-width: 400px;
   }
 
   @media (max-width: 480px) {
-    max-width: 300px;
+    margin: 20px;
+    max-width: 320px;
   }
 }
 
@@ -140,7 +142,7 @@ onMounted(() => {
   color: var(--white);
   border-radius: 8px;
   margin-top: 22px;
-  padding: 28px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,7 +159,7 @@ onMounted(() => {
 }
 
 .balance__info {
-  margin-top: 12px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
 }
@@ -167,8 +169,9 @@ onMounted(() => {
 }
 
 .balance__input {
+  margin-top: 4px;
   margin-left: 12px;
-  padding: 6px 8px;
+  padding: 8px;
   width: 100%;
   border-radius: 5px;
   color: var(--text-color-primary);
@@ -177,7 +180,7 @@ onMounted(() => {
 .balance__total {
   font-size: 24px;
   font-weight: 600;
-  margin-top: 4px;
+  margin-top: 11px;
 }
 
 .balance__edit-icon {
