@@ -82,7 +82,10 @@ const deleteTransaction = () => {
 
   @media (max-width: 990px) {
     max-width: 200px;
-    word-wrap: break-word;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 150px;
   }
 }
 

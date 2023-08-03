@@ -124,6 +124,10 @@ onMounted(() => {
     padding: 20px;
     max-width: 400px;
   }
+
+  @media (max-width: 480px) {
+    max-width: 300px;
+  }
 }
 
 .app-title {
