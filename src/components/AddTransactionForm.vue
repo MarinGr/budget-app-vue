@@ -23,7 +23,7 @@
         @focus="removeError"
         @input="limitNumericInputs"
         type="number"
-        placeholder="Enter expense..."
+        placeholder="Enter amount..."
         v-model="amount"
         ref="amountInput"
       />
